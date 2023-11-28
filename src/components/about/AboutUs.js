@@ -1,4 +1,4 @@
-import SectionHeaders from "../layout/SectionsHeader";
+import SectionHeaders from "@/components/layout/SectionsHeader";
 
 export default function AboutUs() {
     return(

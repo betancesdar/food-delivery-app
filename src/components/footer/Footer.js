@@ -1,10 +1,10 @@
-import SectionHeaders from "../layout/SectionsHeaders";
+import SectionHeaders from "@/components/layout/SectionsHeader";
 
 export default function Footer() {
     return(
         <>
         <div className='text-center my-6'>
-            <SectionHeaders subHeader={'Don\'t hesitate'} mainHeader={'Contact us'} />
+            <SectionHeaders subTittle={'Don\'t hesitate'} mainTittle={'Contact us'} />
         </div>
     <footer className="bg-primary text-white p-8">
         <div className="flex justify-between">
