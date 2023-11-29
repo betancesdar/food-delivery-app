@@ -2,7 +2,7 @@
 import Image from "next/image"
 import { useState } from "react";
 import  {toast}  from "react-toastify";
-import "react-toastify/dist/ .css";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function RegisterPage() {
     const [email, setEmail] = useState('');
